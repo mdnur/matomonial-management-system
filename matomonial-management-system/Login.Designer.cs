@@ -1,6 +1,6 @@
 ﻿namespace matomonial_management_system
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -34,6 +34,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.PasswordLable = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.singup = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +67,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(268, 225);
+            this.textBox2.Location = new System.Drawing.Point(267, 208);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(267, 20);
             this.textBox2.TabIndex = 4;
@@ -74,7 +76,7 @@
             // 
             this.PasswordLable.AutoSize = true;
             this.PasswordLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordLable.Location = new System.Drawing.Point(265, 206);
+            this.PasswordLable.Location = new System.Drawing.Point(264, 189);
             this.PasswordLable.Name = "PasswordLable";
             this.PasswordLable.Size = new System.Drawing.Size(67, 16);
             this.PasswordLable.TabIndex = 3;
@@ -83,26 +85,52 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(268, 262);
+            this.button1.Location = new System.Drawing.Point(267, 245);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(266, 32);
             this.button1.TabIndex = 5;
             this.button1.Text = "Sign In";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(264, 293);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 16);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Admin Login";
+            // 
+            // singup
+            // 
+            this.singup.AutoSize = true;
+            this.singup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.singup.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.singup.Location = new System.Drawing.Point(478, 293);
+            this.singup.Name = "singup";
+            this.singup.Size = new System.Drawing.Size(55, 16);
+            this.singup.TabIndex = 7;
+            this.singup.Text = "Sign Up";
+            this.singup.Click += new System.EventHandler(this.singup_Click);
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.singup);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.PasswordLable);
             this.Controls.Add(this.emailBox);
             this.Controls.Add(this.EmailLabel);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.forgetbox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,6 +144,8 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label PasswordLable;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label singup;
     }
 }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using matomonial_management_system.databases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,9 +15,12 @@ namespace matomonial_management_system
         [STAThread]
         static void Main()
         {
+           // Database.selectAll("users"); 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
+            
+           
         }
     }
 }

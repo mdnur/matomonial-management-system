@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace matomonial_management_system
 {
-    public partial class Form1 : Form
+    public partial class SingUP : Form
     {
-        public Form1()
+        public SingUP()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }
