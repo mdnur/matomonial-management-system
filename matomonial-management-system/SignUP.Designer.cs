@@ -52,9 +52,9 @@
             this.SignUp.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.SignUp.Location = new System.Drawing.Point(488, 300);
             this.SignUp.Name = "SignUp";
-            this.SignUp.Size = new System.Drawing.Size(55, 16);
+            this.SignUp.Size = new System.Drawing.Size(47, 16);
             this.SignUp.TabIndex = 15;
-            this.SignUp.Text = "Sign Up";
+            this.SignUp.Text = "Sign In";
             this.SignUp.Click += new System.EventHandler(this.label3_Click);
             // 
             // singIN
@@ -64,8 +64,9 @@
             this.singIN.Name = "singIN";
             this.singIN.Size = new System.Drawing.Size(266, 32);
             this.singIN.TabIndex = 13;
-            this.singIN.Text = "Sign In";
+            this.singIN.Text = "Sign Up";
             this.singIN.UseVisualStyleBackColor = true;
+            this.singIN.Click += new System.EventHandler(this.singIN_Click);
             // 
             // confrimPasswordBox
             // 

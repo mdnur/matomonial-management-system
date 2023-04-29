@@ -1,4 +1,5 @@
-﻿using System;
+﻿using matomonial_management_system.databases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +27,56 @@ namespace matomonial_management_system
         {
             this.Hide();
             new Login().Show();
+        }
+
+        private void singIN_Click(object sender, EventArgs e)
+        {
+            if (Validatation() == false) { return ; }
+            Database.signUp(nameBox.Text,emailbox.Text,phoneBox.Text,usernameBox.Text,password.Text);
+        }
+        public bool Validatation()
+        {
+            if (string.IsNullOrEmpty(nameBox.Text))
+            {
+                MessageBox.Show("Name can not be empty! ");
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(emailbox.Text))
+            {
+                MessageBox.Show("email can not be empty! ");
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(phoneBox.Text))
+            {
+                MessageBox.Show("phone number can not be empty! ");
+                return false;
+            }
+            if (string.IsNullOrEmpty(usernameBox.Text))
+            {
+                MessageBox.Show("username can not be empty! ");
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(password.Text))
+            {
+                MessageBox.Show("password can not be empty! ");
+                return false;
+            }
+            if (string.IsNullOrEmpty(confrimPasswordBox.Text))
+            {
+                MessageBox.Show("confrim Password can not be empty! ");
+                return false;
+            }
+            if(confrimPasswordBox.Text != password.Text)
+            {
+                MessageBox.Show("confrim password and password should be same ");
+                return false;
+            }
+
+            return true;
+
         }
     }
 }

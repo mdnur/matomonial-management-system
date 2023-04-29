@@ -15,9 +15,10 @@ namespace matomonial_management_system
         [STAThread]
         static void Main()
         {
-           // Database.selectAll("users"); 
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Database.setUp();
             Application.Run(new Login());
             
            
