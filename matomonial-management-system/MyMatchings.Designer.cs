@@ -1,6 +1,6 @@
 ﻿namespace matomonial_management_system
 {
-    partial class ViewProfiles
+    partial class MyMatchings
     {
         /// <summary>
         /// Required designer variable.
@@ -28,50 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(289, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(186, 36);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "My Matchings";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 107);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 138);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(805, 350);
-            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.Size = new System.Drawing.Size(799, 311);
+            this.dataGridView1.TabIndex = 10;
             // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(349, 43);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-<<<<<<< HEAD
-            this.materialLabel1.Size = new System.Drawing.Size(85, 19);
-            this.materialLabel1.TabIndex = 2;
-            this.materialLabel1.Text = "View Profile";
-=======
-            this.materialLabel1.Size = new System.Drawing.Size(93, 19);
-            this.materialLabel1.TabIndex = 2;
-            this.materialLabel1.Text = "View Profiles";
->>>>>>> 4185212 (final change)
-            // 
-            // ViewProfiles
+            // MyMatchings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ViewProfiles";
-            this.Text = "ViewProfiles";
-<<<<<<< HEAD
-=======
-            this.Load += new System.EventHandler(this.ViewProfiles_Load);
->>>>>>> 4185212 (final change)
+            this.Controls.Add(this.label2);
+            this.Name = "MyMatchings";
+            this.Text = "MyMatchings";
+            this.Load += new System.EventHandler(this.MyMatchings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -80,7 +70,7 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }

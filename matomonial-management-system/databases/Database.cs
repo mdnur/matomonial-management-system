@@ -87,5 +87,12 @@ namespace matomonial_management_system.databases
         {
             conn.insertMatch(id1,id2);
         }
+<<<<<<< HEAD
+=======
+        internal static SqlDataReader GetMatchingByID(int id)
+        {
+            return conn.GetMatchingByID(id);
+        }
+>>>>>>> 4185212 (final change)
     }
 }

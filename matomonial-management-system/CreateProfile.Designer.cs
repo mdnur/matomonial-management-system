@@ -48,6 +48,11 @@
             this.MatarialStatus = new MaterialSkin.Controls.MaterialLabel();
             this.materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
             this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+<<<<<<< HEAD
+=======
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+>>>>>>> 4185212 (final change)
             this.SuspendLayout();
             // 
             // materialLabel1
@@ -439,6 +444,19 @@
             this.materialLabel10.TabIndex = 10;
             this.materialLabel10.Text = "Create Profile";
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::matomonial_management_system.Properties.Resources.wed;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(796, 448);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
+>>>>>>> 4185212 (final change)
             // CreateProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -464,9 +482,17 @@
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
+<<<<<<< HEAD
             this.Name = "CreateProfile";
             this.Text = "CreateProfile";
             this.Load += new System.EventHandler(this.CreateProfile_Load);
+=======
+            this.Controls.Add(this.pictureBox2);
+            this.Name = "CreateProfile";
+            this.Text = "CreateProfile";
+            this.Load += new System.EventHandler(this.CreateProfile_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+>>>>>>> 4185212 (final change)
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -494,5 +520,9 @@
         private MaterialSkin.Controls.MaterialLabel MatarialStatus;
         private MaterialSkin.Controls.MaterialComboBox materialComboBox1;
         private MaterialSkin.Controls.MaterialLabel materialLabel10;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.PictureBox pictureBox2;
+>>>>>>> 4185212 (final change)
     }
 }

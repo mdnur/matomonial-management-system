@@ -48,6 +48,11 @@
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+<<<<<<< HEAD
+=======
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+>>>>>>> 4185212 (final change)
             this.SuspendLayout();
             // 
             // materialLabel10
@@ -425,7 +430,11 @@
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
             this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
+<<<<<<< HEAD
             this.materialButton1.Size = new System.Drawing.Size(158, 36);
+=======
+            this.materialButton1.Size = new System.Drawing.Size(73, 36);
+>>>>>>> 4185212 (final change)
             this.materialButton1.TabIndex = 50;
             this.materialButton1.Text = "Match";
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -433,6 +442,19 @@
             this.materialButton1.UseVisualStyleBackColor = true;
             this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::matomonial_management_system.Properties.Resources.wed;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(796, 448);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 51;
+            this.pictureBox2.TabStop = false;
+            // 
+>>>>>>> 4185212 (final change)
             // ViewProfileMatch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -458,9 +480,17 @@
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
+<<<<<<< HEAD
             this.Name = "ViewProfileMatch";
             this.Text = "ViewProfileMatch";
             this.Load += new System.EventHandler(this.ViewProfileMatch_Load);
+=======
+            this.Controls.Add(this.pictureBox2);
+            this.Name = "ViewProfileMatch";
+            this.Text = "ViewProfileMatch";
+            this.Load += new System.EventHandler(this.ViewProfileMatch_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+>>>>>>> 4185212 (final change)
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -488,5 +518,9 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialButton materialButton1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.PictureBox pictureBox2;
+>>>>>>> 4185212 (final change)
     }
 }

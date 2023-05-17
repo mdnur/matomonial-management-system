@@ -74,5 +74,13 @@ namespace matomonial_management_system
         {
 
         }
+<<<<<<< HEAD
+=======
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> 4185212 (final change)
     }
 }

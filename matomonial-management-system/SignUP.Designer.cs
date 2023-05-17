@@ -43,29 +43,51 @@
             this.hone = new System.Windows.Forms.Label();
             this.password = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+>>>>>>> 4185212 (final change)
             this.SuspendLayout();
             // 
             // SignUp
             // 
             this.SignUp.AutoSize = true;
+<<<<<<< HEAD
             this.SignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignUp.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.SignUp.Location = new System.Drawing.Point(488, 300);
             this.SignUp.Name = "SignUp";
             this.SignUp.Size = new System.Drawing.Size(47, 16);
+=======
+            this.SignUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.SignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SignUp.ForeColor = System.Drawing.Color.Black;
+            this.SignUp.Location = new System.Drawing.Point(488, 300);
+            this.SignUp.Name = "SignUp";
+            this.SignUp.Size = new System.Drawing.Size(48, 16);
+>>>>>>> 4185212 (final change)
             this.SignUp.TabIndex = 15;
             this.SignUp.Text = "Sign In";
             this.SignUp.Click += new System.EventHandler(this.label3_Click);
             // 
             // singIN
             // 
+<<<<<<< HEAD
+=======
+            this.singIN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+>>>>>>> 4185212 (final change)
             this.singIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.singIN.Location = new System.Drawing.Point(277, 256);
             this.singIN.Name = "singIN";
             this.singIN.Size = new System.Drawing.Size(266, 32);
             this.singIN.TabIndex = 13;
             this.singIN.Text = "Sign Up";
+<<<<<<< HEAD
             this.singIN.UseVisualStyleBackColor = true;
+=======
+            this.singIN.UseVisualStyleBackColor = false;
+>>>>>>> 4185212 (final change)
             this.singIN.Click += new System.EventHandler(this.singIN_Click);
             // 
             // confrimPasswordBox
@@ -81,7 +103,11 @@
             this.ConPasswordLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConPasswordLable.Location = new System.Drawing.Point(428, 189);
             this.ConPasswordLable.Name = "ConPasswordLable";
+<<<<<<< HEAD
             this.ConPasswordLable.Size = new System.Drawing.Size(115, 16);
+=======
+            this.ConPasswordLable.Size = new System.Drawing.Size(116, 16);
+>>>>>>> 4185212 (final change)
             this.ConPasswordLable.TabIndex = 11;
             this.ConPasswordLable.Text = "Confirm Password";
             // 
@@ -98,7 +124,11 @@
             this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameLabel.Location = new System.Drawing.Point(124, 86);
             this.NameLabel.Name = "NameLabel";
+<<<<<<< HEAD
             this.NameLabel.Size = new System.Drawing.Size(44, 16);
+=======
+            this.NameLabel.Size = new System.Drawing.Size(45, 16);
+>>>>>>> 4185212 (final change)
             this.NameLabel.TabIndex = 9;
             this.NameLabel.Text = "Name";
             // 
@@ -126,7 +156,11 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(428, 86);
             this.label4.Name = "label4";
+<<<<<<< HEAD
             this.label4.Size = new System.Drawing.Size(41, 16);
+=======
+            this.label4.Size = new System.Drawing.Size(42, 16);
+>>>>>>> 4185212 (final change)
             this.label4.TabIndex = 16;
             this.label4.Text = "Email";
             // 
@@ -143,7 +177,11 @@
             this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username.Location = new System.Drawing.Point(124, 137);
             this.username.Name = "username";
+<<<<<<< HEAD
             this.username.Size = new System.Drawing.Size(70, 16);
+=======
+            this.username.Size = new System.Drawing.Size(71, 16);
+>>>>>>> 4185212 (final change)
             this.username.TabIndex = 18;
             this.username.Text = "Username";
             // 
@@ -160,7 +198,11 @@
             this.hone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hone.Location = new System.Drawing.Point(428, 137);
             this.hone.Name = "hone";
+<<<<<<< HEAD
             this.hone.Size = new System.Drawing.Size(45, 16);
+=======
+            this.hone.Size = new System.Drawing.Size(46, 16);
+>>>>>>> 4185212 (final change)
             this.hone.TabIndex = 20;
             this.hone.Text = "phone";
             // 
@@ -177,10 +219,28 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(124, 189);
             this.label5.Name = "label5";
+<<<<<<< HEAD
             this.label5.Size = new System.Drawing.Size(67, 16);
             this.label5.TabIndex = 22;
             this.label5.Text = "Password";
             // 
+=======
+            this.label5.Size = new System.Drawing.Size(68, 16);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Password";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::matomonial_management_system.Properties.Resources.wed;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(796, 448);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+>>>>>>> 4185212 (final change)
             // SingUP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,8 +261,15 @@
             this.Controls.Add(this.nameBox);
             this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.Name = "SingUP";
             this.Text = "SingUP";
+=======
+            this.Controls.Add(this.pictureBox2);
+            this.Name = "SingUP";
+            this.Text = "SingUP";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+>>>>>>> 4185212 (final change)
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,5 +292,9 @@
         private System.Windows.Forms.Label hone;
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.PictureBox pictureBox2;
+>>>>>>> 4185212 (final change)
     }
 }

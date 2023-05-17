@@ -49,14 +49,27 @@
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.Submit = new MaterialSkin.Controls.MaterialButton();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+<<<<<<< HEAD
+=======
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+>>>>>>> 4185212 (final change)
             this.SuspendLayout();
             // 
             // materialLabel10
             // 
             this.materialLabel10.AutoSize = true;
+<<<<<<< HEAD
             this.materialLabel10.Depth = 0;
             this.materialLabel10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel10.Location = new System.Drawing.Point(38, 9);
+=======
+            this.materialLabel10.BackColor = System.Drawing.SystemColors.Control;
+            this.materialLabel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel10.Location = new System.Drawing.Point(32, 9);
+>>>>>>> 4185212 (final change)
             this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel10.Name = "materialLabel10";
             this.materialLabel10.Size = new System.Drawing.Size(78, 19);
@@ -441,7 +454,11 @@
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
+<<<<<<< HEAD
             this.materialButton1.Location = new System.Drawing.Point(494, 408);
+=======
+            this.materialButton1.Location = new System.Drawing.Point(524, 408);
+>>>>>>> 4185212 (final change)
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
@@ -454,6 +471,19 @@
             this.materialButton1.UseVisualStyleBackColor = true;
             this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::matomonial_management_system.Properties.Resources.wed;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(796, 448);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 52;
+            this.pictureBox2.TabStop = false;
+            // 
+>>>>>>> 4185212 (final change)
             // Edit_Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -480,8 +510,15 @@
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
+<<<<<<< HEAD
             this.Name = "Edit_Profile";
             this.Text = "Edit_Profile";
+=======
+            this.Controls.Add(this.pictureBox2);
+            this.Name = "Edit_Profile";
+            this.Text = "Edit_Profile";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+>>>>>>> 4185212 (final change)
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -510,5 +547,9 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialButton Submit;
         private MaterialSkin.Controls.MaterialButton materialButton1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.PictureBox pictureBox2;
+>>>>>>> 4185212 (final change)
     }
 }

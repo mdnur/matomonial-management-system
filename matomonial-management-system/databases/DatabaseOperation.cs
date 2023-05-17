@@ -109,9 +109,37 @@ namespace matomonial_management_system.databases
             }
             return 0;
         }
+<<<<<<< HEAD
        public void  CreateProfile(int age, double height, string education, string occupation, string gender, string religion, string ethnicity, string matarialStatus, string aboutme)
        {
             string query = "INSERT INTO Profiles (UserID, gender, age, Religion, Occupation, Education, Height, MaritalStatus, about_me, ethnicity) \r\nVALUES (@UserID, @gender, @age, @Religion, @Occupation, @Education, @Height, @MaritalStatus, @about_me, @ethnicity)";
+=======
+
+        internal SqlDataReader GetMatchingByID(int id)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT users.userid,username,name,email,phone FROM users INNER JOIN Matching ON users.UserID = Matching.User2ID WHERE Matching.User1ID = @UserID", conn);
+                cmd.Parameters.AddWithValue("@UserID", id);
+                SqlDataReader reader = cmd.ExecuteReader();
+                return reader;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+
+            }
+            return null;
+        }
+
+        public void  CreateProfile(int age, double height, string education, string occupation, string gender, string religion, string ethnicity, string matarialStatus, string aboutme)
+       {
+            string query = "INSERT INTO Profiles (UserID, gender, age, Religion, Occupation, Education, Height, MaritalStatus, about_me, ethnicity) VALUES (@UserID, @gender, @age, @Religion, @Occupation, @Education, @Height, @MaritalStatus, @about_me, @ethnicity)";
+>>>>>>> 4185212 (final change)
             conn.Open();
             // Create a new command based on the query and connection
             SqlCommand command = new SqlCommand(query, conn);
@@ -128,7 +156,11 @@ namespace matomonial_management_system.databases
             command.Parameters.AddWithValue("@about_me", aboutme);
             command.Parameters.AddWithValue("@ethnicity", ethnicity);
 
+<<<<<<< HEAD
             // Execute the query
+=======
+            // Execute the queryss
+>>>>>>> 4185212 (final change)
             int result = command.ExecuteNonQuery();
             conn.Close();
             // Check if the insert was successful

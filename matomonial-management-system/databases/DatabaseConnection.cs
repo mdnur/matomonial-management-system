@@ -15,7 +15,11 @@ namespace matomonial_management_system.databases
 
         private DatabaseConnection()
         {
+<<<<<<< HEAD
             string connectionString = "Data Source=DESKTOP-D428TCH\\MSSQLSERVER01;Initial Catalog=Matrimonial;Integrated Security=true;";
+=======
+            string connectionString = "Data Source=IFTY-PC;Initial Catalog=Matrimonial;Integrated Security=true;";
+>>>>>>> 4185212 (final change)
             connection = new SqlConnection(connectionString);
         }
 

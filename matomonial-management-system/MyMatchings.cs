@@ -1,4 +1,5 @@
 ﻿using matomonial_management_system.databases;
+using matomonial_management_system.Session;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,21 +13,24 @@ using System.Windows.Forms;
 
 namespace matomonial_management_system
 {
-    public partial class ViewProfiles : Form
+    public partial class MyMatchings : Form
     {
-        public ViewProfiles()
+        public MyMatchings()
         {
             InitializeComponent();
             getProfile();
         }
-     
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public void getProfile()
         {
-<<<<<<< HEAD
-=======
-            
->>>>>>> 4185212 (final change)
-            SqlDataReader reader = Database.getProfile();
+           // SqlDataReader reader = Database.getProfile();
+
+            SqlDataReader reader = Database.GetMatchingByID(int.Parse(SessionData.key["id"]));
             if (reader.HasRows)
             {
                 DataTable dt = new DataTable();
@@ -35,15 +39,16 @@ namespace matomonial_management_system
                 dataGridView1.DataSource = dt;
             }
             reader.Close();
+            Database.conn.Close();
         }
-<<<<<<< HEAD
-   
-=======
-
-        private void ViewProfiles_Load(object sender, EventArgs e)
+        private void MyMatchings_Load(object sender, EventArgs e)
         {
 
         }
->>>>>>> 4185212 (final change)
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

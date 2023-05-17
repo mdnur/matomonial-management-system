@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+﻿using matomonial_management_system.Session;
+using System;
+>>>>>>> 4185212 (final change)
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,5 +26,15 @@ namespace matomonial_management_system
         {
             new ViewProfiles().Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            SessionData.key.Remove("id");
+            this.Close();
+            new Login().Show();
+        }
+>>>>>>> 4185212 (final change)
     }
 }

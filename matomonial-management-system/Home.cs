@@ -1,4 +1,8 @@
 ﻿using matomonial_management_system.databases;
+<<<<<<< HEAD
+=======
+using matomonial_management_system.Session;
+>>>>>>> 4185212 (final change)
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -50,5 +54,30 @@ namespace matomonial_management_system
         {
             new FIndProfile().Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void materialButton4_Click(object sender, EventArgs e)
+        {
+            SessionData.key.Remove("id");
+            this.Close();
+            new Login().Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialButton5_Click(object sender, EventArgs e)
+        {
+            new MyMatchings().Show();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> 4185212 (final change)
     }
 }

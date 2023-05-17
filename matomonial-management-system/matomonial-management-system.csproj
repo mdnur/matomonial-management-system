@@ -8,10 +8,18 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>matomonial_management_system</RootNamespace>
     <AssemblyName>matomonial-management-system</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+=======
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+>>>>>>> 4185212 (final change)
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -91,8 +99,24 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+=======
+    <Compile Include="MyMatchings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyMatchings.Designer.cs">
+      <DependentUpon>MyMatchings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+>>>>>>> 4185212 (final change)
     <Compile Include="Session\SessionData.cs" />
     <Compile Include="SignUP.cs">
       <SubType>Form</SubType>
@@ -100,12 +124,15 @@
     <Compile Include="SignUP.Designer.cs">
       <DependentUpon>SignUP.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="UserRegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UserRegistrationForm.Designer.cs">
       <DependentUpon>UserRegistrationForm.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 4185212 (final change)
     <Compile Include="ViewProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +169,7 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -151,6 +179,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+=======
+    <EmbeddedResource Include="MyMatchings.resx">
+      <DependentUpon>MyMatchings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+>>>>>>> 4185212 (final change)
     <EmbeddedResource Include="SignUP.resx">
       <DependentUpon>SignUP.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,5 +215,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <None Include="Resources\wed.jpg" />
+  </ItemGroup>
+>>>>>>> 4185212 (final change)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
